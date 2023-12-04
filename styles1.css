@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+.header {
+    border: 5px solid black;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    /* background-image: url("photos/header.jpg"); */
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    gap: 40px;
+    margin-right:70px;
+}
+
+#clinic {
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.header > p {
+    margin-left: 10px;
+}
+.container1 {
+    border: 5px solid black;
+    height: 300px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container2 {
+    border: 5px solid black;
+    height: 700px;
+    display: flex;
+    
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+}
+
+.aboutText > #center {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.aboutText2 {
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container3 {
+    border: 5px solid black;
+    height: 300px;
+    background-color: aliceblue;
+    /* display: flex;
+    justify-content: space-between; */
+  
+}
+
+
+.fivestar > img {
+    height: 50px;
+}
+
+.fivestar {
+    text-align: center;
+    padding-top: 30px;
+ 
+}
+
+.testimonies {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testimony {
+    /* height: 300px; */
+    width: 250px;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: snow;
+    
+}
+
+#testimony1 {
+    border: 5px solid blue;
+}
+
+#testimony2 {
+    border: 5px solid purple;
+}
+
+#testimony3 {
+    border: 5px solid saddlebrown;
+}
+
+
+.container4 {
+    border: 5px solid black;
+    height: 300px;
+}
+
+.container5 {
+    border: 5px solid black;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    border: 5px solid black;
+    height: 150px;
+    color: white;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact > #title {
+    font-size: 20px;
+    color: floralwhite;
+    margin-bottom: 10px;
+}
+
+.contact > #addressIndent {
+    margin-left: 17px;
+}
+
+.hours {
+    margin-left: 50px;
+    /* flex-direction: row; */
+}
+
+.hours > p {
+    padding: 3px;
+}
+
+

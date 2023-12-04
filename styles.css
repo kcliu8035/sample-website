@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,400&family=Barlow+Condensed:ital,wght@0,100;0,200;1,100&family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Edu+TAS+Beginner&family=Oswald:wght@200;300&family=Quicksand:wght@300&family=Rajdhani:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header {
+    border: 2px solid white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    /* background-image: url("photos/header.jpg"); */
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    gap: 40px;
+    margin-right:70px;
+}
+
+#clinic {
+    color: blue;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.5em;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.header > p {
+    margin-left: 10px;
+}
+.container1 {
+    border: 2px solid white;
+    height: 800px;
+    display: flex;
+    
+    justify-content: center;    
+    font-size: 40px;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.container1 > .booking {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookingBTN {
+    font-size: 35px;
+    width: 320px;
+    /* border-radius: 12px; */
+    background-color: navajowhite;
+    color: black;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+
+.container1 #video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+/* .image img {
+    height: 100%;
+    width: 100%;
+} */
+
+li {
+    list-style-type: none;
+}
+
+.container2 {
+    border: 2px solid white;
+    height: 750px;
+    display: flex;
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+}
+
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 50px;
+    background-color: snow;
+    border: 5px solid white;
+   
+}
+
+.aboutText > #center {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.aboutText2 {
+    padding: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container3 {
+    border: 1px solid white;
+    height: 600px;
+    /* background-color: aliceblue; */
+    background-color: lightsteelblue;
+    background-image: url("photos/test.png");
+    background-size: 100% 90%; 
+}
+
+
+.fivestar > img {
+    height: 50px;
+}
+
+.fivestar {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 20px;
+
+ 
+}
+
+.testimonies {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testimony {
+    width: 250px;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 60px;
+    background-color: snow;
+    font-size: 20px;   
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+.testimony > p {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+#testimony1 {
+    border: 5px solid blue;
+}
+
+#testimony2 {
+    border: 5px solid purple;
+}
+
+#testimony3 {
+    border: 5px solid saddlebrown;
+}
+
+#sig {
+    padding-left: 80px;
+}
+
+
+.container4 {
+    border: 1px solid grey;
+    height: 500px;
+    background-color: whitesmoke;
+}
+
+.container4 > #title4 {
+    margin: 10px;
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    color:  white;
+    font-weight: bolder;
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+#service {
+    height: 400px;
+    width: 450px;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#service:hover {
+    height: 405px;
+    width: 455px;
+    transition:all 0.3s;
+    opacity:0.8;
+}
+
+#titling {
+    font-size: 30px;
+}
+
+#serviceBTN {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.general {
+    background-image: url("photos/general.jpg");
+    background-size: 100% 110%;   
+}
+
+.cosmetic {
+    background-image: url("photos/cosmetic.jpg");
+    background-size: 100% 100%;   
+}
+
+.invisalign {
+    background-image: url("photos/invisalign.jpg");
+    background-size: 100% 100%;   
+}
+
+.footer {
+    display: flex;
+    border: 3px solid black;
+    height: 200px;
+    color: white;
+    background-color: grey;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* .contact > #title {
+    font-size: 30px;
+    color: floralwhite;
+    margin-bottom: 10px;
+} */
+
+#title {
+    font-size: 30px;
+    color: floralwhite;
+    margin-bottom: 10px;
+}
+
+.hours > #title {
+    margin-bottom: 5px;
+}
+
+.contact > p {
+    padding: 3px;
+}
+
+.contact > .address {
+    font-style: italic;
+}
+
+.contact > #addressIndent {
+    margin-left: 26px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+
+
+.hours {
+    margin-left: 50px;
+    /* flex-direction: row; */
+}
+
+.hours > p {
+    padding: 3px;
+}
+
+.information {
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: space-evenly; */
+}
+
+.informationContainer {
+    gap: 6rem;
+}
+
